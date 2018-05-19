@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour {
-
-    public void LoadFirstLeveL(){
+    
+	public void LoadFirstLeveL(){
         SceneManager.LoadScene(1);
     }
 
