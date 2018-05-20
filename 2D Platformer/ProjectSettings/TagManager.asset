@@ -20,7 +20,7 @@ TagManager:
   - Enemy
   - Hazards
   - Interactables
-  - 
+  - Jumping
   - 
   - 
   - 
@@ -52,6 +52,9 @@ TagManager:
     locked: 0
   - name: Hazards
     uniqueID: 3776952247
+    locked: 0
+  - name: Jumping
+    uniqueID: 3711297831
     locked: 0
   - name: Player
     uniqueID: 764921295

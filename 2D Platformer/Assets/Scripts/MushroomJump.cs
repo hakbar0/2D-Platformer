@@ -5,7 +5,6 @@ using UnityEngine;
 public class MushroomJump : MonoBehaviour {
 
     [SerializeField] float mushroomJump = 30f;
-    [SerializeField] bool isCollision = false;
 
     Rigidbody2D myRigidBody;
     CapsuleCollider2D myBodyCollider2D;
