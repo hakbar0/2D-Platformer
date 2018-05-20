@@ -137,6 +137,7 @@ MonoBehaviour:
   jumpSpeed: 28
   climbSpeed: 5
   deathKick: {x: 20, y: 20}
+  death: {fileID: 8300000, guid: f4c476a7c46fe4aedaa2bcba0ab4f4a2, type: 3}
 --- !u!212 &212333563952923494
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -169,7 +170,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 764921295
-  m_SortingLayer: 4
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 2fed8910a64b549e29c35ef3f97d5b96, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

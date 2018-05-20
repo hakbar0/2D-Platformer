@@ -11,6 +11,7 @@ public class Player : MonoBehaviour {
     [SerializeField] float jumpSpeed = 20f;
     [SerializeField] float climbSpeed = 5f;
     [SerializeField] Vector2 deathKick = new Vector2(25f, 25f);
+    [SerializeField] AudioClip death;
 
     //state
     bool isAlive = true;
@@ -98,6 +99,7 @@ public class Player : MonoBehaviour {
     {
         if (myBodyCollider2D.IsTouchingLayers(LayerMask.GetMask("Enemy", "Hazards")))
         {
+            AudioSource.PlayClipAtPoint(death, Camera.main.transform.position);
             myAnimator.SetTrigger("Dying");
             GetComponent<Rigidbody2D>().velocity = deathKick;
             isAlive = false;
